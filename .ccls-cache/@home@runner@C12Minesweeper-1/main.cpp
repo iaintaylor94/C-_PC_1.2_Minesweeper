@@ -1,5 +1,8 @@
 #include <iostream>
+#include "FileIO.h"
 
-int main() {
-  std::cout << "Hello World!\n";
+int main(int argc, char *argv[]) {
+
+  FileIO instanceFileIO (argc, argv);
+  
 }
