@@ -1,8 +1,9 @@
 #include <iostream>
 #include "FileIO.h"
+#include "getIO.h"
 
 int main(int argc, char *argv[]) {
 
-  FileIO instanceFileIO (argc, argv);
+  GetIO getIO (argc, argv);
   
 }

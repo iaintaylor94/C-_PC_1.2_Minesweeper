@@ -4,15 +4,16 @@
 #include <fstream>
 
 class FileIO {
-  std::ifstream inFile;
-  std::ofstream outFile;
+private:
 
 protected:
-
+  std::ifstream inFile;
+  std::ofstream outFile;
 
 public:
   FileIO (int argc, char *argv[]);
   ~FileIO();
+
 };
 
 #endif
