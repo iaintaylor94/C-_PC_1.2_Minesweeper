@@ -18,9 +18,9 @@ char ProcessGame::processSquare(int h, int w) {
   }
 }
 void ProcessGame::processGrid (void) {
-  for (int i = 1; i < gridHeight + 1; i++) {
-    for (int j = 1; j < gridWidth + 1; j++) {
-      processedGrid[i][j] = processSquare(i, j);
+  for (int i = 0; i < gridHeight; i++) {
+    for (int j = 0; j < gridWidth; j++) {
+      processedGrid[i + 1][j + 1] = processSquare(i + 1, j + 1);
     }
   }
 }

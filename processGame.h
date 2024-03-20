@@ -5,6 +5,7 @@
 
 class ProcessGame : public GetIO{
 private:
+  char processSquare (int, int);
 
 protected:
 
@@ -12,7 +13,6 @@ public:
   ProcessGame (int argc, char *argv[]) : GetIO (argc, argv) {};
   ~ProcessGame () {};
 
-  char processSquare (int, int);
   void processGrid (void);
 };
 
