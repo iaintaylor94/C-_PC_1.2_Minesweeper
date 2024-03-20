@@ -12,6 +12,7 @@ public:
   ProcessGame (int argc, char *argv[]) : GetIO (argc, argv) {};
   ~ProcessGame () {};
 
+  char processSquare (int, int);
   void processGrid (void);
 };
 
